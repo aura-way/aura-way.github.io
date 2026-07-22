@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="icon" content="aura_logo.png">
+  <link rel="icon" type="image/png" href="aura_logo.png">
+  <script src="lucide.min.js"></script>
+  <title>AuraWay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Isolated Performant Fixed Background Container Layer -->
+  <div class="auraway-fixed-bg"></div>
+  <header>
+    <h1>AuraWay</h1>
+  </header>
+  <div class="intro">
+    <img src="aura_logo_big.png" id="aura_logo" alt="AuraWay Logo">
+    <h1>AuraWay</h1>
+    <p class="para">
+      Experience <b>Aura-Forming Quality</b>
+    </p>
+    <button onclick="document.getElementById('web-apps').scrollIntoView({behavior: 'smooth'})">Explore our work</button>
+  </div>
+
+  <div class="container">
+
+    <!-- About Section -->
+    <div class="about-section">
+      <h2 class="section-title">About</h2>
+      <p>
+        AuraWay is an independent studio dedicated to crafting high-quality, simple to complex, lightweight and useful applications. Everything built here is fully optimized, and completely free to access for everyone.
+      </p>
+    </div>
+    <h2 class="section-title">Why We Stand Out ?</h2>
+    <div class="grid-container">
+      <div class="card">
+        <div class="column">
+          <i data-lucide="gem" class="quality-icon"></i>
+          <h2 class="quality-text">Premium Quality</h2>
+        </div>
+        <p class="quality">
+          We always make software of premium and professionla quality that can form Aura.
+        </p>
+      </div>
+      <div class="card quality-card">
+        <div class="column">
+          <i data-lucide="wrench" class="quality-icon"></i>
+          <h2 class="quality-text">Purpose-Driven</h2>
+        </div>
+        <p class="quality">
+          We build high-utility applications that solve real-world problems efficiently.
+        </p>
+      </div>
+      <div class="card quality-card">
+        <div class="column">
+          <i data-lucide="wifi-off" class="quality-icon"></i>
+          <h2 class="quality-text">Offline First</h2>
+        </div>
+        <p class="quality">
+          We mostly focus on offline first apps.
+        </p>
+      </div>
+    </div>
+    <!-- Web Apps Section -->
+    <h2 class="section-title" id="web-apps">Web Apps By Us</h2>
+    <div class="grid-container">
+
+      <!-- Neon Strike -->
+      <div class="card">
+        <div class="card-content">
+          <div class="row" style="justify-content: space-between; width: 100%; margin-bottom: 15px;">
+            <h2 style="margin: 0;">Neon Strike</h2>
+            <div class="app_status">
+              Version 1.0
+            </div>
+          </div>
+          <img src="n-s.jpg" alt="Neon Strike Showcase">
+          <ul>
+            <li>Fast-paced casual space shooter game.</li>
+            <li>Fully offline capable.</li>
+          </ul>
+        </div>
+        <a href="https://n-strike.netlify.app" target="_blank">
+          <button>
+            <div class="row">
+              <i data-lucide="rocket"></i>
+              <span>Open App</span>
+            </div>
+          </button>
+        </a>
+      </div>
+
+      <!-- Hidden Beast Converter Element Structure -->
+      <div class="notshow">
+        <div class="card-content">
+          <h2>Beast Converter</h2>
+          <img src="" alt="Beast Converter Showcase">
+          <ul>
+            <li>High-speed local audio converter.</li>
+            <li>Audio enhancements like bass boost and reverb.</li>
+            <li>Built-in audio metadata/tag editor.</li>
+          </ul>
+        </div>
+        <a href="https://beast-converter.netlify.app" target="_blank">
+          <button>
+            <div class="row">
+              <i data-lucide="rocket"></i>
+              <span>Open App</span>
+            </div>
+          </button>
+        </a>
+      </div>
+
+      <!-- Beast Editor -->
+      <div class="card">
+        <div class="card-content">
+          <div class="row" style="justify-content: space-between; width: 100%; margin-bottom: 15px;">
+            <h2 style="margin: 0;">Beast Editor</h2>
+            <div class="app_status">
+              Beta 0.8
+            </div>
+          </div>
+          <img src="b-ed.jpg" alt="Beast Editor Showcase">
+          <ul>
+            <li>Lightweight, lightning-fast mobile code editor.</li>
+            <li>Syntax highlighting for multiple languages.</li>
+            <li>Designed for offline development sessions.</li>
+          </ul>
+        </div>
+        <a href="https://beast-editor.netlify.app" target="_blank">
+          <button>
+            <div class="row">
+              <i data-lucide="rocket"></i>
+              <span>Open App</span>
+            </div>
+          </button>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Android Apps Section -->
+    <h2 class="section-title">Android Apps By Us</h2>
+    <div class="grid-container">
+      <!-- UltraShare -->
+      <div class="card">
+        <div class="card-content">
+          <div class="row" style="justify-content: space-between; width: 100%; margin-bottom: 15px;">
+            <h2 style="margin: 0;">UltraShare</h2>
+            <div class="app_status">
+              Under Dev
+            </div>
+          </div>
+          <img src="ultsh.jpg" alt="UltraShare Showcase">
+          <ul>
+            <li>Local peer-to-peer file transfer over Wi-Fi.</li>
+            <li>Blazing fast speeds up to 500 MB/s.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Eye Protection -->
+      <div class="card">
+        <div class="card-content">
+          <div class="row" style="justify-content: space-between; width: 100%; margin-bottom: 15px;">
+            <h2 style="margin: 0;">Eye Protection</h2>
+            <div class="app_status">
+              Under Dev
+            </div>
+          </div>
+          <img src="eye-pt.jpg" alt="Eye Protection Showcase">
+          <ul>
+            <li>Protects your vision during extended screen sessions.</li>
+            <li>Customized blink reminders and interval timers.</li>
+            <li>Includes a handy home-screen widget toggle.</li>
+          </ul>
+        </div>
+        <button onclick="down_load('ep.apk')" class="notshow">
+          <div class="row">
+            <i data-lucide="download"></i>
+            <span>Download From Galaxy Store</span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>
+      For Contact: auraway.dev@gmail.com
+    </p>
+    <p id="cop">
+      &copy; 2026 AuraWay
+    </p>
+  </footer>
+  <script src="app.js"></script>
+  <script>
+    // Initialize Lucide icons seamlessly inside document lifecycle context
+    if (typeof lucide !== 'undefined') {
+      lucide.createIcons();
+    }
+  </script>
+</body>
+</html>
