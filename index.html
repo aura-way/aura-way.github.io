@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AuraWay — Useful Apps, Thoughtfully Built</title>
+  
+  <meta name="description" content="Discover AuraWay, an independent software studio building useful digital experiences. Explore Aura Editor, a mobile-friendly code editor, and Neon Strike, an offline space shooter.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="canonical" href="https://aura-way.github.io/">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aura-way.github.io/">
+  <meta property="og:title" content="AuraWay — Useful Apps, Thoughtfully Built">
+  <meta property="og:description" content="Explore useful digital experiences built with purpose. Meet Aura Editor and Neon Strike.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AuraWay — Useful Apps, Thoughtfully Built">
+  <meta name="twitter:description" content="Useful digital experiences, built with purpose.">
+  <meta name="twitter:image" content="https://aura-way.github.io/aura_logo_big.png">
+  <meta property="og:image" content="https://aura-way.github.io/aura_logo_big.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="aura_logo.png">
+
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "AuraWay",
+    "url": "https://aura-way.github.io/",
+    "logo": "https://aura-way.github.io/aura_logo_big.png",
+    "email": "auraway.dev@gmail.com",
+    "sameAs": [
+      "https://www.instagram.com/aura_way.official",
+      "https://youtube.com/@aurawayofficial",
+      "https://github.com/aura-way",
+      "https://auraway.itch.io/",
+      "https://x.com/aurawayofficial",
+      "https://pypi.org/user/AuraWay/"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"ItemList","name":"AuraWay applications","itemListElement":[
+    {"@type":"ListItem","position":1,"item":{"@type":"SoftwareApplication","name":"Aura Editor","applicationCategory":"DeveloperApplication","operatingSystem":"Web","url":"https://aura-editor-web.netlify.app/"}},
+    {"@type":"ListItem","position":2,"item":{"@type":"VideoGame","name":"Neon Strike","gamePlatform":"Web browser","url":"https://n-strike.netlify.app/"}}
+  ]}
+  </script>
+
+  <script src="lucide.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Isolated Performant Fixed Background Container Layer -->
+  <div class="auraway-fixed-bg"></div>
+  <header>
+    <h1><a href="./">AuraWay</a></h1>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a href="./">Home</a><a href="#web-apps">Our Apps</a><a href="about.html">About</a><a href="mailto:auraway.dev@gmail.com">Contact</a>
+    </nav>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+  <div class="intro">
+    <img src="aura_logo_big.png" id="aura_logo" alt="AuraWay Logo">
+    <h1>AuraWay</h1>
+    <p class="para">Experience <b>Aura-Forming Quality</b></p>
+    <p class="hero-description">Thoughtful digital experiences. Useful tools. Built with purpose.</p>
+    <button onclick="document.getElementById('web-apps').scrollIntoView({behavior: 'smooth'})">Explore our work <span aria-hidden="true">↘</span></button>
+  </div>
+
+  <div class="container">
+
+    <!-- About teaser -->
+    <div class="about-section">
+      <div class="section-heading-row">
+        <div><span class="eyebrow">A LITTLE ABOUT US</span><h2 class="section-title">Ideas into experiences.</h2></div>
+        <a class="subtle-link" href="about.html">Our story ↗</a>
+      </div>
+      <p>AuraWay is an independent software studio started in 2026, focused on building useful, thoughtfully designed applications that make everyday digital experiences better.</p>
+    </div>
+    <span class="eyebrow">WHAT MATTERS TO US</span>
+    <h2 class="section-title">Why AuraWay?</h2>
+    <div class="grid-container">
+      <div class="card">
+        <div class="column">
+          <i data-lucide="gem" class="quality-icon"></i>
+          <h2 class="quality-text">Quality First</h2>
+        </div>
+        <p class="quality">
+          Carefully crafted experiences, with attention to the details that make software feel polished.
+        </p>
+      </div>
+      <div class="card quality-card">
+        <div class="column">
+          <i data-lucide="wrench" class="quality-icon"></i>
+          <h2 class="quality-text">Purpose-Driven</h2>
+        </div>
+        <p class="quality">
+          We build around real needs, keeping products practical, focused and easy to understand.
+        </p>
+      </div>
+      <div class="card quality-card">
+        <div class="column">
+          <i data-lucide="wifi-off" class="quality-icon"></i>
+          <h2 class="quality-text">Offline First</h2>
+        </div>
+        <p class="quality">
+          We value responsive performance and offline capability wherever the product allows it.
+        </p>
+      </div>
+    </div>
+    <!-- Featured applications -->
+    <div class="section-heading-row apps-heading">
+      <div><span class="eyebrow">SELECTED PROJECTS</span><h2 class="section-title" id="web-apps">Our Applications</h2></div>
+      <span class="project-count">02 PROJECTS</span>
+    </div>
+    <div class="grid-container app-grid">
+      <div class="card app-card">
+        <div class="card-content">
+          <div class="row app-card-heading">
+            <h2>Aura Editor</h2><div class="app_status live-status"><span></span> Live</div>
+          </div>
+          <img src="a-editor.jpg">
+          <p class="app-summary">A mobile-friendly code editor with AI integration, live preview, Eruda support, autocomplete and Markdown support. Designed for beginners and intermediate developers.</p>
+          <ul class="feature-list"><li>AI-assisted coding</li><li>Live preview and autocomplete</li><li>Markdown support and Eruda tools</li></ul>
+        </div>
+        <a class="app-button" href="https://aura-editor-web.netlify.app/" target="_blank" rel="noopener noreferrer"><span><i data-lucide="code-2"></i> Explore Aura Editor</span><i data-lucide="arrow-up-right"></i></a>
+      </div>
+      <div class="card app-card">
+        <div class="card-content">
+          <div class="row app-card-heading">
+            <h2>Neon Strike</h2><div class="app_status">Version 0.3</div>
+          </div>
+          <img src="n-strike.jpg">
+          <p class="app-summary">A fast-paced casual space shooter that brings arcade-style action to your browser. Jump into the action and play even without an internet connection.</p>
+          <ul class="feature-list"><li>Fast-paced casual space shooter</li><li>Fully offline capable</li><li>Quick, accessible gameplay</li></ul>
+        </div>
+        <a class="app-button" href="https://n-strike.netlify.app/" target="_blank" rel="noopener noreferrer"><span><i data-lucide="rocket"></i> Play Neon Strike</span><i data-lucide="arrow-up-right"></i></a>
+      </div>
+    </div>
+    <section class="social-section" aria-labelledby="social-title">
+      <div class="social-heading">
+        <span class="eyebrow">FOLLOW THE JOURNEY</span>
+        <h2 class="section-title" id="social-title">Find AuraWay elsewhere.</h2>
+        <p>Follow our work, updates and new releases across the web.</p>
+      </div>
+      <div class="social-grid">
+        <a class="social-card" href="https://www.instagram.com/aura_way.official" target="_blank" rel="noopener noreferrer" aria-label="AuraWay on Instagram">
+          <span class="social-mark instagram-mark" aria-hidden="true">◎</span><span class="social-name">Instagram</span><span class="social-handle">@aura_way.official</span><span class="social-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="social-card" href="https://youtube.com/@aurawayofficial" target="_blank" rel="noopener noreferrer" aria-label="AuraWay on YouTube">
+          <span class="social-mark youtube-mark" aria-hidden="true">▶</span><span class="social-name">YouTube</span><span class="social-handle">@aurawayofficial</span><span class="social-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="social-card" href="https://github.com/aura-way" target="_blank" rel="noopener noreferrer" aria-label="AuraWay on GitHub">
+          <span class="social-mark github-mark" aria-hidden="true">GH</span><span class="social-name">GitHub</span><span class="social-handle">github.com/aura-way</span><span class="social-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="social-card" href="https://auraway.itch.io/" target="_blank" rel="noopener noreferrer" aria-label="AuraWay on itch.io">
+          <span class="social-mark itch-mark" aria-hidden="true">itch</span><span class="social-name">itch.io</span><span class="social-handle">auraway.itch.io</span><span class="social-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="social-card" href="https://x.com/aurawayofficial" target="_blank" rel="noopener noreferrer" aria-label="AuraWay on X">
+          <span class="social-mark x-mark" aria-hidden="true">𝕏</span><span class="social-name">X</span><span class="social-handle">@aurawayofficial</span><span class="social-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="social-card" href="https://pypi.org/user/AuraWay/" target="_blank" rel="noopener noreferrer" aria-label="AuraWay on PyPI">
+          <span class="social-mark pypi-mark" aria-hidden="true">Py</span><span class="social-name">PyPI</span><span class="social-handle">pypi.org/user/AuraWay</span><span class="social-arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+    <div class="contact-strip">
+      <div><span class="eyebrow">LET'S CONNECT</span><h2>Have an idea or feedback?</h2><p>We'd love to hear from you.</p></div>
+      <a class="contact-button" href="mailto:auraway.dev@gmail.com">Get in touch ↗</a>
+    </div>
+  </div>
+  <footer>
+    <a class="footer-brand" href="./">AuraWay</a>
+    <p>Independent ideas. Useful experiences.</p>
+    <div class="footer-links"><a href="about.html">About</a><a href="#web-apps">Our Apps</a><a href="mailto:auraway.dev@gmail.com">Contact</a></div>
+    <p class="copyright">© <span id="year">2026</span> AuraWay. All rights reserved.</p>
+  </footer>
+  <script src="app.js" defer></script>
+
+</body>
+</html>
